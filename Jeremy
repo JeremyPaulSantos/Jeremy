@@ -1,0 +1,52 @@
+#include <iostream>
+#include <conio.h>
+#include <string>
+#include <iomanip>
+
+using namespace std;
+int main()
+{ 
+	int num1, num2, num3, num4, num5, num6, num7, num8, num9;
+
+	num1= 250;
+	cout << "Game 1" << endl;
+	cout << "box" << endl;
+	cout << "price = $" << num1 << endl;
+	cout << "Tickets Sold (enter amount)" << endl;
+	cin >> num2;
+	cout << "Total sales for box = $" << num1 * num2 << endl;
+
+	num3= 100;
+	cout << "premium" << endl;
+	cout << "price = $" << num3 << endl;
+	cout << "Tickets Sold (enter amount)" << endl;
+	cin >> num4;
+	cout << "Total sales for box = $" << num3 * num4 << endl;
+
+	num5= 50;
+
+	cout << "sideline" << endl;
+	cout << "price = $" << num5 << endl;
+	cout << "Tickets Sold (enter amount)" << endl;
+	cin >> num6;
+	cout << "Total sales for box = $" << num5 * num6 << endl;
+
+
+
+	num7= 25;
+	cout << "general adimission" << endl;
+	cout << "price = $" << num7 <<endl;
+	cout << "Tickets Sold (enter amount)" << endl;
+	cin >> num8;
+	cout << "Total sales for box = $" << num7 * num8 << endl;
+	num9 = (num1 * num2) + (num3 * num4) + (num5 * num6) + (num7 * num8);
+	cout << "Total sales = $)" << num9 << endl;
+
+	_getch();
+	return 0;
+}
+
+
+
+
+
